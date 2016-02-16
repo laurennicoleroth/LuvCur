@@ -15,14 +15,7 @@ class User
     var firstName: String
     var lastName: String
     var gender: String
-    var image: UIImage? {
-        get {
-            return self.image
-        }
-        set {
-            self.image = UIImage(named: "default-user")
-        }
-    }
+    var image: UIImage?
     
     init(id: String, firstName: String, lastName: String, gender: String, image: UIImage) {
         self.id = id
@@ -32,5 +25,9 @@ class User
         self.image = image
     }
 
+    func setDefaultImage() -> UIImage {
+        self.image = UIImage(named: "default-user")
+        return self.image!
+    }
 }
 
