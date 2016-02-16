@@ -8,18 +8,23 @@
 
 import UIKit
 
-class CardsViewController: UIViewController {
-
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+class CardsViewController: UIViewController
+{
+    // MARK - Outlets
+    @IBOutlet weak var cardStackView: UIView!
+    @IBOutlet weak var noButton: UIButton!
+    @IBOutlet weak var yesButton: UIButton!
+    
+    // MARK - Card
+    struct Card {
+        let cardView: CardView
+        let user: User
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-
+    
+    let frontCardTopMargin: CGFloat = 0
+    let backCardTopMargin: CGFloat = 10
+    
+    
 
 }
 

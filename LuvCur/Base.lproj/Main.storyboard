@@ -3,6 +3,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--LuvCur-->
@@ -16,7 +17,31 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="R9p-3B-m57">
+                                <rect key="frame" x="20" y="72" width="560" height="482"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NhK-Xc-I4b">
+                                <rect key="frame" x="20" y="562" width="46" height="30"/>
+                                <state key="normal" title="Button"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dsi-LM-NtW">
+                                <rect key="frame" x="534" y="562" width="46" height="30"/>
+                                <state key="normal" title="Button"/>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="NhK-Xc-I4b" firstAttribute="top" secondItem="R9p-3B-m57" secondAttribute="bottom" constant="8" symbolic="YES" id="0hP-YS-PeZ"/>
+                            <constraint firstItem="dsi-LM-NtW" firstAttribute="baseline" secondItem="NhK-Xc-I4b" secondAttribute="baseline" id="1NH-58-S4z"/>
+                            <constraint firstItem="R9p-3B-m57" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="1ld-Rj-4sf"/>
+                            <constraint firstItem="NhK-Xc-I4b" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="FJS-ef-pje"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="dsi-LM-NtW" secondAttribute="trailing" id="Fgm-Lj-auc"/>
+                            <constraint firstItem="R9p-3B-m57" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" symbolic="YES" id="X29-2b-Hw5"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="NhK-Xc-I4b" secondAttribute="bottom" constant="8" symbolic="YES" id="xn5-HE-MJ1"/>
+                            <constraint firstItem="R9p-3B-m57" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="yee-2U-emv"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="LuvCur" id="iF4-qr-XWW">
                         <barButtonItem key="leftBarButtonItem" style="plain" id="k5w-lr-gr6">
@@ -34,6 +59,11 @@
                             </button>
                         </barButtonItem>
                     </navigationItem>
+                    <connections>
+                        <outlet property="cardStackView" destination="R9p-3B-m57" id="3TN-pR-E0d"/>
+                        <outlet property="noButton" destination="NhK-Xc-I4b" id="QYt-zG-lle"/>
+                        <outlet property="yesButton" destination="dsi-LM-NtW" id="BQr-vh-q9I"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
