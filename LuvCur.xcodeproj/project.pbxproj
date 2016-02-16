@@ -14,6 +14,8 @@
 		962CBD5B1C73B43E00316B18 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 962CBD591C73B43E00316B18 /* LaunchScreen.storyboard */; };
 		962CBD661C73B43F00316B18 /* LuvCurTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962CBD651C73B43F00316B18 /* LuvCurTests.swift */; };
 		962CBD711C73B43F00316B18 /* LuvCurUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962CBD701C73B43F00316B18 /* LuvCurUITests.swift */; };
+		962CBD821C73B67400316B18 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962CBD811C73B67400316B18 /* User.swift */; };
+		962CBD851C73B68E00316B18 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962CBD841C73B68E00316B18 /* CardView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		962CBD6C1C73B43F00316B18 /* LuvCurUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LuvCurUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		962CBD701C73B43F00316B18 /* LuvCurUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LuvCurUITests.swift; sourceTree = "<group>"; };
 		962CBD721C73B43F00316B18 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		962CBD811C73B67400316B18 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = User.swift; path = ../User.swift; sourceTree = "<group>"; };
+		962CBD841C73B68E00316B18 /* CardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,12 +101,10 @@
 		962CBD4F1C73B43E00316B18 /* LuvCur */ = {
 			isa = PBXGroup;
 			children = (
-				962CBD501C73B43E00316B18 /* AppDelegate.swift */,
-				962CBD521C73B43E00316B18 /* CardsViewController.swift */,
-				962CBD541C73B43E00316B18 /* Main.storyboard */,
-				962CBD571C73B43E00316B18 /* Assets.xcassets */,
-				962CBD591C73B43E00316B18 /* LaunchScreen.storyboard */,
-				962CBD5C1C73B43E00316B18 /* Info.plist */,
+				962CBD831C73B67E00316B18 /* Models */,
+				962CBD7E1C73B63900316B18 /* Views */,
+				962CBD7F1C73B64100316B18 /* Controllers */,
+				962CBD801C73B64A00316B18 /* Supporting Files */,
 			);
 			path = LuvCur;
 			sourceTree = "<group>";
@@ -123,6 +125,42 @@
 				962CBD721C73B43F00316B18 /* Info.plist */,
 			);
 			path = LuvCurUITests;
+			sourceTree = "<group>";
+		};
+		962CBD7E1C73B63900316B18 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				962CBD541C73B43E00316B18 /* Main.storyboard */,
+				962CBD571C73B43E00316B18 /* Assets.xcassets */,
+				962CBD591C73B43E00316B18 /* LaunchScreen.storyboard */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		962CBD7F1C73B64100316B18 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				962CBD521C73B43E00316B18 /* CardsViewController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		962CBD801C73B64A00316B18 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				962CBD5C1C73B43E00316B18 /* Info.plist */,
+				962CBD501C73B43E00316B18 /* AppDelegate.swift */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		962CBD831C73B67E00316B18 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				962CBD811C73B67400316B18 /* User.swift */,
+				962CBD841C73B68E00316B18 /* CardView.swift */,
+			);
+			name = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,6 +296,8 @@
 			files = (
 				962CBD531C73B43E00316B18 /* CardsViewController.swift in Sources */,
 				962CBD511C73B43E00316B18 /* AppDelegate.swift in Sources */,
+				962CBD851C73B68E00316B18 /* CardView.swift in Sources */,
+				962CBD821C73B67400316B18 /* User.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
