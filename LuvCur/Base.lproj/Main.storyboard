@@ -19,28 +19,35 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="R9p-3B-m57">
-                                <rect key="frame" x="20" y="72" width="560" height="482"/>
+                                <rect key="frame" x="20" y="72" width="560" height="418"/>
                                 <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                             </view>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NhK-Xc-I4b">
-                                <rect key="frame" x="20" y="562" width="46" height="30"/>
-                                <state key="normal" title="Button"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NhK-Xc-I4b">
+                                <rect key="frame" x="20" y="491" width="94" height="82"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="94" id="ouB-Wt-951"/>
+                                </constraints>
+                                <state key="normal" title="Button" image="no-button"/>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dsi-LM-NtW">
-                                <rect key="frame" x="534" y="562" width="46" height="30"/>
-                                <state key="normal" title="Button"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dsi-LM-NtW">
+                                <rect key="frame" x="497" y="494" width="83" height="75"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="83" id="HC2-hl-CLr"/>
+                                </constraints>
+                                <state key="normal" title="Button" image="yes-button"/>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="NhK-Xc-I4b" firstAttribute="top" secondItem="R9p-3B-m57" secondAttribute="bottom" constant="8" symbolic="YES" id="0hP-YS-PeZ"/>
-                            <constraint firstItem="dsi-LM-NtW" firstAttribute="baseline" secondItem="NhK-Xc-I4b" secondAttribute="baseline" id="1NH-58-S4z"/>
-                            <constraint firstItem="R9p-3B-m57" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="1ld-Rj-4sf"/>
-                            <constraint firstItem="NhK-Xc-I4b" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="FJS-ef-pje"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="dsi-LM-NtW" secondAttribute="trailing" id="Fgm-Lj-auc"/>
-                            <constraint firstItem="R9p-3B-m57" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" symbolic="YES" id="X29-2b-Hw5"/>
-                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="NhK-Xc-I4b" secondAttribute="bottom" constant="8" symbolic="YES" id="xn5-HE-MJ1"/>
-                            <constraint firstItem="R9p-3B-m57" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="yee-2U-emv"/>
+                            <constraint firstItem="R9p-3B-m57" firstAttribute="trailing" secondItem="dsi-LM-NtW" secondAttribute="trailing" id="0S4-K0-NgJ"/>
+                            <constraint firstItem="R9p-3B-m57" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="HdY-yr-sFS"/>
+                            <constraint firstItem="dsi-LM-NtW" firstAttribute="top" secondItem="R9p-3B-m57" secondAttribute="bottom" constant="4" id="Lhq-uB-W9M"/>
+                            <constraint firstItem="R9p-3B-m57" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" symbolic="YES" id="NfK-At-RiK"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="NhK-Xc-I4b" secondAttribute="bottom" constant="27" id="Uk4-yP-tNz"/>
+                            <constraint firstItem="NhK-Xc-I4b" firstAttribute="leading" secondItem="R9p-3B-m57" secondAttribute="leading" id="ai1-ij-r1Y"/>
+                            <constraint firstItem="R9p-3B-m57" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="jkG-TY-fEW"/>
+                            <constraint firstItem="NhK-Xc-I4b" firstAttribute="top" secondItem="R9p-3B-m57" secondAttribute="bottom" constant="1" id="pBm-XG-n2F"/>
+                            <constraint firstItem="dsi-LM-NtW" firstAttribute="centerY" secondItem="NhK-Xc-I4b" secondAttribute="centerY" id="tia-dr-SQp"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="LuvCur" id="iF4-qr-XWW">
@@ -88,4 +95,8 @@
             <point key="canvasLocation" x="478" y="372"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="no-button" width="75" height="75"/>
+        <image name="yes-button" width="75" height="75"/>
+    </resources>
 </document>
