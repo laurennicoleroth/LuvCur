@@ -10,14 +10,10 @@ target 'LuvCur' do
 end
 
 target 'LuvCurTests' do
- pod 'Firebase', '>= 2.5.0'
- pod 'Parse'
- pod 'KinveyKit'
+
 end
 
 target 'LuvCurUITests' do
- pod 'Firebase', '>= 2.5.0'
- pod 'Parse'
- pod 'KinveyKit'
+
 end
 

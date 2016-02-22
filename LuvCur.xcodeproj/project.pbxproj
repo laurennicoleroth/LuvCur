@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		7441BDF470FDAB83C4BDB045 /* libPods-LuvCurTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E3719EB8222AC20E79BA2808 /* libPods-LuvCurTests.a */; };
-		7A3508CECF516F5FC9120D73 /* libPods-LuvCur.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E1E7F33B14A65BC1980A3853 /* libPods-LuvCur.a */; };
 		962CBD511C73B43E00316B18 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962CBD501C73B43E00316B18 /* AppDelegate.swift */; };
 		962CBD531C73B43E00316B18 /* CardsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962CBD521C73B43E00316B18 /* CardsViewController.swift */; };
 		962CBD561C73B43E00316B18 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 962CBD541C73B43E00316B18 /* Main.storyboard */; };
@@ -28,7 +26,21 @@
 		96A5DD561C7B7C2C000D90E7 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96A5DD551C7B7C2C000D90E7 /* ChatViewController.swift */; };
 		96A5DD581C7B7CFA000D90E7 /* UserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96A5DD571C7B7CFA000D90E7 /* UserCell.swift */; };
 		96A5DD5A1C7B7DEE000D90E7 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96A5DD591C7B7DEE000D90E7 /* Constants.swift */; };
-		CBD11877214A4B4A05C72EE2 /* libPods-LuvCurUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 416ADBA16B2227ACA593E57D /* libPods-LuvCurUITests.a */; };
+		96F5C5C81C7B932F00580BFD /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96F5C5C71C7B932F00580BFD /* AudioToolbox.framework */; };
+		96F5C5CA1C7B933600580BFD /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96F5C5C91C7B933600580BFD /* CFNetwork.framework */; };
+		96F5C5CC1C7B933F00580BFD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96F5C5CB1C7B933F00580BFD /* CoreGraphics.framework */; };
+		96F5C5CE1C7B935000580BFD /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96F5C5CD1C7B935000580BFD /* CoreLocation.framework */; };
+		96F5C5D01C7B935B00580BFD /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96F5C5CF1C7B935B00580BFD /* QuartzCore.framework */; };
+		96F5C5D21C7B936400580BFD /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96F5C5D11C7B936400580BFD /* Security.framework */; };
+		96F5C5D41C7B936C00580BFD /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96F5C5D31C7B936C00580BFD /* StoreKit.framework */; };
+		96F5C5D61C7B937800580BFD /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96F5C5D51C7B937800580BFD /* SystemConfiguration.framework */; };
+		96F5C5DD1C7B942600580BFD /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96F5C5D71C7B942600580BFD /* Bolts.framework */; };
+		96F5C5DE1C7B942600580BFD /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96F5C5D81C7B942600580BFD /* Parse.framework */; };
+		96F5C5DF1C7B942600580BFD /* ParseFacebookUtils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96F5C5D91C7B942600580BFD /* ParseFacebookUtils.framework */; };
+		96F5C5E01C7B942600580BFD /* ParseFacebookUtilsV4.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96F5C5DA1C7B942600580BFD /* ParseFacebookUtilsV4.framework */; };
+		96F5C5E11C7B942600580BFD /* ParseTwitterUtils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96F5C5DB1C7B942600580BFD /* ParseTwitterUtils.framework */; };
+		96F5C5E21C7B942600580BFD /* ParseUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96F5C5DC1C7B942600580BFD /* ParseUI.framework */; };
+		F6B1317D7A867404D55841C4 /* libPods-LuvCur.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B1AF9FF5A74926373D304FED /* libPods-LuvCur.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,7 +63,6 @@
 /* Begin PBXFileReference section */
 		0033E0F66DC87384ABE00A22 /* Pods-LuvCurUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LuvCurUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-LuvCurUITests/Pods-LuvCurUITests.release.xcconfig"; sourceTree = "<group>"; };
 		283B823A95D87B4F47FF363A /* Pods-LuvCur.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LuvCur.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LuvCur/Pods-LuvCur.debug.xcconfig"; sourceTree = "<group>"; };
-		416ADBA16B2227ACA593E57D /* libPods-LuvCurUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LuvCurUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4766B641E4F558C386ADBCD0 /* Pods-LuvCur.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LuvCur.release.xcconfig"; path = "Pods/Target Support Files/Pods-LuvCur/Pods-LuvCur.release.xcconfig"; sourceTree = "<group>"; };
 		4812FCD281AE9B3293B5F1B1 /* Pods-LuvCurTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LuvCurTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LuvCurTests/Pods-LuvCurTests.debug.xcconfig"; sourceTree = "<group>"; };
 		962CBD4D1C73B43E00316B18 /* LuvCur.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LuvCur.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -79,9 +90,22 @@
 		96A5DD551C7B7C2C000D90E7 /* ChatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
 		96A5DD571C7B7CFA000D90E7 /* UserCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserCell.swift; sourceTree = "<group>"; };
 		96A5DD591C7B7DEE000D90E7 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		96F5C5C71C7B932F00580BFD /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		96F5C5C91C7B933600580BFD /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		96F5C5CB1C7B933F00580BFD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		96F5C5CD1C7B935000580BFD /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		96F5C5CF1C7B935B00580BFD /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		96F5C5D11C7B936400580BFD /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		96F5C5D31C7B936C00580BFD /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		96F5C5D51C7B937800580BFD /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		96F5C5D71C7B942600580BFD /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		96F5C5D81C7B942600580BFD /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		96F5C5D91C7B942600580BFD /* ParseFacebookUtils.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseFacebookUtils.framework; sourceTree = "<group>"; };
+		96F5C5DA1C7B942600580BFD /* ParseFacebookUtilsV4.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseFacebookUtilsV4.framework; sourceTree = "<group>"; };
+		96F5C5DB1C7B942600580BFD /* ParseTwitterUtils.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseTwitterUtils.framework; sourceTree = "<group>"; };
+		96F5C5DC1C7B942600580BFD /* ParseUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseUI.framework; sourceTree = "<group>"; };
+		B1AF9FF5A74926373D304FED /* libPods-LuvCur.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LuvCur.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7E7419C6AC64E5982C8F71A /* Pods-LuvCurUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LuvCurUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LuvCurUITests/Pods-LuvCurUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		E1E7F33B14A65BC1980A3853 /* libPods-LuvCur.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LuvCur.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		E3719EB8222AC20E79BA2808 /* libPods-LuvCurTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LuvCurTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED0656ED2CF01B372874BD43 /* Pods-LuvCurTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LuvCurTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-LuvCurTests/Pods-LuvCurTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -90,7 +114,21 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7A3508CECF516F5FC9120D73 /* libPods-LuvCur.a in Frameworks */,
+				96F5C5D61C7B937800580BFD /* SystemConfiguration.framework in Frameworks */,
+				96F5C5D41C7B936C00580BFD /* StoreKit.framework in Frameworks */,
+				96F5C5DF1C7B942600580BFD /* ParseFacebookUtils.framework in Frameworks */,
+				96F5C5D21C7B936400580BFD /* Security.framework in Frameworks */,
+				96F5C5D01C7B935B00580BFD /* QuartzCore.framework in Frameworks */,
+				96F5C5CE1C7B935000580BFD /* CoreLocation.framework in Frameworks */,
+				96F5C5DD1C7B942600580BFD /* Bolts.framework in Frameworks */,
+				96F5C5DE1C7B942600580BFD /* Parse.framework in Frameworks */,
+				96F5C5CC1C7B933F00580BFD /* CoreGraphics.framework in Frameworks */,
+				96F5C5CA1C7B933600580BFD /* CFNetwork.framework in Frameworks */,
+				96F5C5E11C7B942600580BFD /* ParseTwitterUtils.framework in Frameworks */,
+				96F5C5C81C7B932F00580BFD /* AudioToolbox.framework in Frameworks */,
+				96F5C5E21C7B942600580BFD /* ParseUI.framework in Frameworks */,
+				96F5C5E01C7B942600580BFD /* ParseFacebookUtilsV4.framework in Frameworks */,
+				F6B1317D7A867404D55841C4 /* libPods-LuvCur.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -98,7 +136,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7441BDF470FDAB83C4BDB045 /* libPods-LuvCurTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -106,7 +143,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CBD11877214A4B4A05C72EE2 /* libPods-LuvCurUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -213,9 +249,21 @@
 		993041CA3151589FAA82DF37 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				E1E7F33B14A65BC1980A3853 /* libPods-LuvCur.a */,
-				E3719EB8222AC20E79BA2808 /* libPods-LuvCurTests.a */,
-				416ADBA16B2227ACA593E57D /* libPods-LuvCurUITests.a */,
+				96F5C5D71C7B942600580BFD /* Bolts.framework */,
+				96F5C5D81C7B942600580BFD /* Parse.framework */,
+				96F5C5D91C7B942600580BFD /* ParseFacebookUtils.framework */,
+				96F5C5DA1C7B942600580BFD /* ParseFacebookUtilsV4.framework */,
+				96F5C5DB1C7B942600580BFD /* ParseTwitterUtils.framework */,
+				96F5C5DC1C7B942600580BFD /* ParseUI.framework */,
+				96F5C5D51C7B937800580BFD /* SystemConfiguration.framework */,
+				96F5C5D31C7B936C00580BFD /* StoreKit.framework */,
+				96F5C5D11C7B936400580BFD /* Security.framework */,
+				96F5C5CF1C7B935B00580BFD /* QuartzCore.framework */,
+				96F5C5CD1C7B935000580BFD /* CoreLocation.framework */,
+				96F5C5CB1C7B933F00580BFD /* CoreGraphics.framework */,
+				96F5C5C91C7B933600580BFD /* CFNetwork.framework */,
+				96F5C5C71C7B932F00580BFD /* AudioToolbox.framework */,
+				B1AF9FF5A74926373D304FED /* libPods-LuvCur.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -651,6 +699,10 @@
 			baseConfigurationReference = 283B823A95D87B4F47FF363A /* Pods-LuvCur.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = LuvCur/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = come.LuvCur.LuvCur;
@@ -664,6 +716,10 @@
 			baseConfigurationReference = 4766B641E4F558C386ADBCD0 /* Pods-LuvCur.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = LuvCur/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = come.LuvCur.LuvCur;
