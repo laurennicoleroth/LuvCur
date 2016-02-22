@@ -1,10 +1,13 @@
 PODS:
   - Firebase (2.5.1)
+  - KinveyKit (1.40.4)
 
 DEPENDENCIES:
   - Firebase (>= 2.5.0)
+  - KinveyKit
 
 SPEC CHECKSUMS:
   Firebase: 3565ea88b830f28f2c77ecc524622bc71a20d085
+  KinveyKit: 07e34a2c4592482db84599726fb4f566f25c6343
 
 COCOAPODS: 0.39.0

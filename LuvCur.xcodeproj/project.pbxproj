@@ -19,6 +19,15 @@
 		962CBD821C73B67400316B18 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962CBD811C73B67400316B18 /* User.swift */; };
 		962CBD851C73B68E00316B18 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962CBD841C73B68E00316B18 /* CardView.swift */; };
 		962CBD871C73D1A000316B18 /* SwipeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962CBD861C73D1A000316B18 /* SwipeView.swift */; };
+		96A5DD4A1C7B7A92000D90E7 /* Match.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96A5DD491C7B7A92000D90E7 /* Match.swift */; };
+		96A5DD4C1C7B7AC6000D90E7 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96A5DD4B1C7B7AC6000D90E7 /* Message.swift */; };
+		96A5DD4E1C7B7B0A000D90E7 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96A5DD4D1C7B7B0A000D90E7 /* LoginViewController.swift */; };
+		96A5DD501C7B7B4B000D90E7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96A5DD4F1C7B7B4B000D90E7 /* ViewController.swift */; };
+		96A5DD521C7B7BCA000D90E7 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96A5DD511C7B7BCA000D90E7 /* ProfileViewController.swift */; };
+		96A5DD541C7B7BF5000D90E7 /* MatchesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96A5DD531C7B7BF5000D90E7 /* MatchesViewController.swift */; };
+		96A5DD561C7B7C2C000D90E7 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96A5DD551C7B7C2C000D90E7 /* ChatViewController.swift */; };
+		96A5DD581C7B7CFA000D90E7 /* UserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96A5DD571C7B7CFA000D90E7 /* UserCell.swift */; };
+		96A5DD5A1C7B7DEE000D90E7 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96A5DD591C7B7DEE000D90E7 /* Constants.swift */; };
 		CBD11877214A4B4A05C72EE2 /* libPods-LuvCurUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 416ADBA16B2227ACA593E57D /* libPods-LuvCurUITests.a */; };
 /* End PBXBuildFile section */
 
@@ -61,6 +70,15 @@
 		962CBD811C73B67400316B18 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = User.swift; path = ../User.swift; sourceTree = "<group>"; };
 		962CBD841C73B68E00316B18 /* CardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		962CBD861C73D1A000316B18 /* SwipeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwipeView.swift; sourceTree = "<group>"; };
+		96A5DD491C7B7A92000D90E7 /* Match.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Match.swift; sourceTree = "<group>"; };
+		96A5DD4B1C7B7AC6000D90E7 /* Message.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		96A5DD4D1C7B7B0A000D90E7 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		96A5DD4F1C7B7B4B000D90E7 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		96A5DD511C7B7BCA000D90E7 /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		96A5DD531C7B7BF5000D90E7 /* MatchesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MatchesViewController.swift; sourceTree = "<group>"; };
+		96A5DD551C7B7C2C000D90E7 /* ChatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		96A5DD571C7B7CFA000D90E7 /* UserCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserCell.swift; sourceTree = "<group>"; };
+		96A5DD591C7B7DEE000D90E7 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		D7E7419C6AC64E5982C8F71A /* Pods-LuvCurUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LuvCurUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LuvCurUITests/Pods-LuvCurUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		E1E7F33B14A65BC1980A3853 /* libPods-LuvCur.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LuvCur.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E3719EB8222AC20E79BA2808 /* libPods-LuvCurTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LuvCurTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -149,9 +167,12 @@
 		962CBD7E1C73B63900316B18 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				962CBD841C73B68E00316B18 /* CardView.swift */,
+				962CBD861C73D1A000316B18 /* SwipeView.swift */,
 				962CBD541C73B43E00316B18 /* Main.storyboard */,
 				962CBD571C73B43E00316B18 /* Assets.xcassets */,
 				962CBD591C73B43E00316B18 /* LaunchScreen.storyboard */,
+				96A5DD571C7B7CFA000D90E7 /* UserCell.swift */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -159,7 +180,12 @@
 		962CBD7F1C73B64100316B18 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				96A5DD4F1C7B7B4B000D90E7 /* ViewController.swift */,
+				96A5DD4D1C7B7B0A000D90E7 /* LoginViewController.swift */,
+				96A5DD511C7B7BCA000D90E7 /* ProfileViewController.swift */,
 				962CBD521C73B43E00316B18 /* CardsViewController.swift */,
+				96A5DD531C7B7BF5000D90E7 /* MatchesViewController.swift */,
+				96A5DD551C7B7C2C000D90E7 /* ChatViewController.swift */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -167,6 +193,7 @@
 		962CBD801C73B64A00316B18 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				96A5DD591C7B7DEE000D90E7 /* Constants.swift */,
 				962CBD5C1C73B43E00316B18 /* Info.plist */,
 				962CBD501C73B43E00316B18 /* AppDelegate.swift */,
 			);
@@ -177,8 +204,8 @@
 			isa = PBXGroup;
 			children = (
 				962CBD811C73B67400316B18 /* User.swift */,
-				962CBD841C73B68E00316B18 /* CardView.swift */,
-				962CBD861C73D1A000316B18 /* SwipeView.swift */,
+				96A5DD491C7B7A92000D90E7 /* Match.swift */,
+				96A5DD4B1C7B7AC6000D90E7 /* Message.swift */,
 			);
 			name = Models;
 			sourceTree = "<group>";
@@ -469,10 +496,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				962CBD531C73B43E00316B18 /* CardsViewController.swift in Sources */,
+				96A5DD581C7B7CFA000D90E7 /* UserCell.swift in Sources */,
 				962CBD511C73B43E00316B18 /* AppDelegate.swift in Sources */,
+				96A5DD521C7B7BCA000D90E7 /* ProfileViewController.swift in Sources */,
 				962CBD851C73B68E00316B18 /* CardView.swift in Sources */,
+				96A5DD501C7B7B4B000D90E7 /* ViewController.swift in Sources */,
+				96A5DD541C7B7BF5000D90E7 /* MatchesViewController.swift in Sources */,
 				962CBD871C73D1A000316B18 /* SwipeView.swift in Sources */,
+				96A5DD4E1C7B7B0A000D90E7 /* LoginViewController.swift in Sources */,
 				962CBD821C73B67400316B18 /* User.swift in Sources */,
+				96A5DD4A1C7B7A92000D90E7 /* Match.swift in Sources */,
+				96A5DD5A1C7B7DEE000D90E7 /* Constants.swift in Sources */,
+				96A5DD561C7B7C2C000D90E7 /* ChatViewController.swift in Sources */,
+				96A5DD4C1C7B7AC6000D90E7 /* Message.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -619,6 +655,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = come.LuvCur.LuvCur;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				"SWIFT_OBJC_BRIDGING_HEADER[arch=*]" = "";
 			};
 			name = Debug;
 		};

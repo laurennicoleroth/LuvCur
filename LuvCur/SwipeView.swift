@@ -7,8 +7,6 @@
 //
 
 import Foundation
-
-import Foundation
 import UIKit
 
 protocol SwipeViewDelegate: class {
@@ -83,6 +81,7 @@ class SwipeView: UIView {
             }
             
         default:
+            print("Default triggered for GestureRecognizer")
             break
         }
     }
@@ -112,7 +111,7 @@ class SwipeView: UIView {
         
         if newDirection != direction {
             direction = newDirection
-//            overlay.image = direction == .Right ? UIImage(named: "yes-stamp") : UIImage(named: "nah-stamp")
+            overlay.image = direction == .Right ? UIImage(named: "yeah-stamp") : UIImage(named: "nah-stamp")
         }
         overlay.alpha = abs(distance) / (superview!.frame.width / 2)
     }
