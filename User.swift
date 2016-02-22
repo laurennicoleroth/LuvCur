@@ -29,5 +29,29 @@ class User
         self.image = UIImage(named: "default-user")
         return self.image!
     }
+    
+    func fetchUnviewedUsers(callback: ([User] -> ())) {
+        
+//        PFQuery(className: "Action")
+//            .whereKey("byUser", equalTo: PFUser.currentUser()!.objectId!).findObjectsInBackgroundWithBlock({
+//                objects, error in
+//                
+//                print(objects!)
+//                let viewedUsers = (objects!).map({$0.objectForKey("toUser")!})
+//                print(viewedUsers)
+//                
+//                PFUser.query()!
+//                    .whereKey("objectId", notEqualTo: PFUser.currentUser()!.objectId!)
+//                    .whereKey("objectId", notContainedIn: viewedUsers)
+//                    .findObjectsInBackgroundWithBlock({
+//                        objects, error in
+//                        
+//                        if let pfUsers = objects as? [PFUser] {
+//                            let users = pfUsers.map({pfUserToUser($0)})
+//                            callback(users)
+//                        }
+//                    })
+//            })
+    }
 }
 

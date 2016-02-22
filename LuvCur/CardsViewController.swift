@@ -51,8 +51,15 @@ class CardsViewController: UIViewController
     let backCardTopMargin: CGFloat = 10
     
     func updateUI() {
-        cardStackView.backgroundColor = UIColor.redColor()
-
+        cardStackView.backgroundColor = UIColor.lightGrayColor()
+        
+        fetchUnviewedUsers({
+            returnUsers in
+            self.users = returnUsers
+            
+            let card = self.popCard()
+            print(card)
+        })
     }
     
     private func createCardFrame(topMargin: CGFloat) -> CGRect {
@@ -63,10 +70,9 @@ class CardsViewController: UIViewController
     
     var users: [User]?
     
-    private func fetchUnviewedUsers() {
-        print("fetching unviewed users")
-//        self.cardStackView.addSubview(self.frontCard!.swipeView)
-//        self.cardStackView.insertSubview(self.backCard!.swipeView, belowSubview: self.frontCard!.swipeView)
+    func fetchUnviewedUsers(callback: ([User] -> ())) {
+        
+        //fetch users
     }
     
     //MARK: Animate Cards
@@ -80,10 +86,17 @@ class CardsViewController: UIViewController
     
     @IBAction func yesButtonPressed() {
         //swipe right
+        if let card = frontCard {
+            card.swipeView.swipeDirection(.Right)
+        }
     }
     
     private func popCard() {
-       
+        if users != nil && users?.count > 0 {
+            print("we have some users")
+//            return createCard(users!.removeLast())
+        }
+//        return nil
     }
 }
 
