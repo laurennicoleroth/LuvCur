@@ -1,13 +1,19 @@
 PODS:
+  - Bolts/Tasks (1.6.0)
   - Firebase (2.5.1)
   - KinveyKit (1.40.4)
+  - Parse (1.12.0):
+    - Bolts/Tasks (~> 1.5)
 
 DEPENDENCIES:
   - Firebase (>= 2.5.0)
   - KinveyKit
+  - Parse
 
 SPEC CHECKSUMS:
+  Bolts: f52a250053bb517ca874523c3913776359ab3def
   Firebase: 3565ea88b830f28f2c77ecc524622bc71a20d085
   KinveyKit: 07e34a2c4592482db84599726fb4f566f25c6343
+  Parse: de2c52a9a1421b91ae7594ab8ce191afd184f19b
 
 COCOAPODS: 0.39.0
